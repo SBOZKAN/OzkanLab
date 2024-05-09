@@ -5,15 +5,59 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>People - Start Bootstrap Template</title>
+        <title>Contact - Start Bootstrap Template</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <link href="../css/styles.css" rel="stylesheet" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="../js/layout.js"></script>
+        <style>
+            .content-container {
+                margin-top: 100px;
+            }
+            .content-container::after {
+            content: "";
+            display: block;
+            height: 120px;
+        } 
+        </style>
     </head>
     <body id="page-top">
         <div id="loaded-layout"></div>
         <!-- Page-specific content goes here -->
+        <div class="container content-container">
+            <p class="text-center mt-5">
+                We appreciate your curiosity in the Ozkan Lab at Arizona State University! We're always happy to discuss our research and collaborate on exciting projects. Our lab is focused on advancing computational methods for studying complex systems, including those in the life sciences. We're open to discussing potential collaborations !
+            </p>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <h2>Email Us</h2>
+                    <form action="MAILTO:group-email@example.com" method="post" enctype="text/plain" class="p-3 mb-2 bg-light text-dark rounded">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="name" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="mail" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" name="message" rows="3" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </form>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h2>Location</h2>
+                    <p>Physical Sciences Building F wing <br>
+                     Room 470
+                    <p>Department of Physics,
+                        550 E Tyler Drive 
+                        <br>Tempe, AZ 85287</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h2>Follow Us</h2>
+                    <p><a href="#">Facebook</a><br><a href="#">Twitter</a><br><a href="#">Instagram</a></p>
+                </div>
+            </div>
+        </div>
         <footer class="py-5 bg-dark">
             <div class="container px-4"><p class="m-0 text-center text-white">Copyright © Cem Kazan 2023</p></div>
         </footer>
