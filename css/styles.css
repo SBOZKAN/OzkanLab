@@ -3775,19 +3775,19 @@ textarea.form-control-lg {
   padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
 }
 
-.navbar::before {
+/* .navbar::before {
   content: "";
   position: absolute;
   top: 0;
   left: 15%;
-  width: 60%; /* adjust this to control how much of the navbar the image should cover */
+  width: 60%; 
   height: 100%;
   background-position: center top;
   background-image: url('../assets/banner.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: -1; /* this ensures the image stays behind your navbar content */
-}
+  z-index: -1; 
+} */
 
 .navbar > .container,
 .navbar > .container-fluid,
