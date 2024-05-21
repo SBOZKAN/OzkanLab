@@ -3783,9 +3783,9 @@ textarea.form-control-lg {
   width: 60%; /* adjust this to control how much of the navbar the image should cover */
   height: 100%;
   background-position: center;
-  background-image: url('../assets/banner_test.png');
+  background-image: url('../assets/banner.jpg');
   background-repeat: no-repeat;
-  background-size: 20% 100%;
+  background-size: cover;
   z-index: -1; /* this ensures the image stays behind your navbar content */
 }
 
