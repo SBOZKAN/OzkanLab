@@ -91,61 +91,10 @@
   }
 }
 
-html, body {
-  height: 100%;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
+html {
+  position: relative;
+  min-height: 100%;
 }
-
-.content-container {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 150px;
-}
-
-.content-container::after {
-  content: "";
-  display: block;
-  height: 120px;
-}
-
-.header-image {
-  width: 100%;
-  height: auto;
-  max-height: 400px;
-  object-fit: cover;
-  margin-bottom: 20px;
-}
-
-.introduction-section {
-  display: flex;
-  align-items: flex-start;
-}
-
-.introduction-section img {
-  margin-right: 20px;
-  max-width: 100%;
-  height: auto;
-}
-
-.btn-primary {
-  background-color: #007bff;
-  border-color: #007bff;
-  color: white;
-}
-
-footer {
-  background-color: #343a40;
-  color: white;
-  text-align: center;
-  padding: 1rem 0;
-}
-
-
-
 
 body {
   margin: 0;
@@ -156,16 +105,15 @@ body {
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  /* min-height: 100vh; */
+  min-height: 80vh;
 }
 
 footer {
-  /* Add this to your footer */
-  position: fixed;
-  margin-top: auto;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
+
 
 .pi-image img {
   width: 100%; /* This will make the image take the full width of its container */

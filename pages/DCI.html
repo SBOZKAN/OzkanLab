@@ -6,20 +6,16 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>DFI</title>
-        <base href="https://cemkazan.github.io/OzkanLab/" />
+        <!-- <base href="https://cemkazan.github.io/OzkanLab/" /> -->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <link href="/OzkanLab/css/styles.css" rel="stylesheet" />
+        <link href="../css/styles.css" rel="stylesheet" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="/OzkanLab/js/layout.js"></script>
+        <script src="../js/layout.js"></script>
         <style>
             .content-container {
                 margin-top: 150px;
             }
-            .content-container::after {
-            content: "";
-            display: block;
-            height: 120px;
-        } 
+             
         </style>
     </head>
     <body id="page-top">
@@ -28,23 +24,19 @@
         <div class="container content-container">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="/OzkanLab/assets/DFI_DCI/DCI_1BTL.png" alt="Dynamic Coupling Index" style="width: 50%;">
+                    <img src="../assets/DFI_DCI/DCI_1BTL.png" alt="Dynamic Coupling Index" style="width: 50%;">
                 </div>
                 <div class="col-md-6">
                     <h2>Dynamic Coupling Index (DCI)</h2>
                     <p>
-                        The Dynamic Coupling Index (DCI) evaluates the allosteric coupling between residue pairs within a protein. Similar to DFI, DCI uses perturbation responses to gauge how changes in one part of a protein affect distant regions. High DCI scores indicate strong allosteric communication, essential for understanding how distant mutations can impact active sites and overall protein function.
+                        The Dynamic Coupling Index (DCI) evaluates the dynamic coupling between any residue pair within a protein. Similar to DFI, DCI uses perturbation responses to gauge how force perturbation exterted on one part of a protein affect distant regions. High DCI scores indicate strong allosteric communications.  Distal residue positions exhibiting high dynamic coupling with the functional sites  (i.e. active/binding sites)  can allosterically impact their dynamics, particularly when these positions gets mutated.
                     </p>
                     <a href="https://dynamicsdb.org/DCI_Analysis">Check our web tool for DCI calculations</a>
                 </div>
             </div>
             <p>For further details on our methodologies and findings, explore our publications and data sets linked above.</p>
         </div>
-        <footer class="py-5 bg-dark">
-            <div class="container px-4">
-                <p class="m-0 text-center text-white">Copyright © Cem Kazan 2024</p>
-            </div>
-        </footer>
+        
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <script src="OzkanLab/js/scripts.js"></script>
     </body>    
